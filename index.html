@@ -3,20 +3,99 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Perfect Finish Leiria | Tira Mossas, Películas, Car Detail e Lavagem</title>
+    <title>Perfect Finish Leiria | Tira Mossas, Películas e Car Detail</title>
     <meta
       name="description"
-      content="Perfect Finish em Leiria: tira mossas, películas, car detail, lavagem e cuidado automóvel com avaliação 4,9 em 84 críticas."
+      content="Tira mossas, películas automóvel, car detail e lavagem detalhada em Leiria. Perfect Finish em Cardosos, avaliação 4,9 e 84 críticas. Ligue 968 828 510."
     />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Perfect Finish" />
+    <meta name="geo.region" content="PT-10" />
+    <meta name="geo.placename" content="Leiria, Portugal" />
     <meta name="theme-color" content="#090a0a" />
-    <meta property="og:title" content="Perfect Finish - Leiria" />
+    <meta property="og:type" content="business.business" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:site_name" content="Perfect Finish" />
+    <meta property="og:title" content="Perfect Finish Leiria | Tira Mossas, Películas e Car Detail" />
     <meta
       property="og:description"
-      content="Tira mossas, películas, car detail e lavagem com atenção ao detalhe em Leiria."
+      content="Tira mossas, películas automóvel, car detail e lavagem detalhada em Cardosos, Leiria."
     />
     <meta property="og:image" content="assets/logo.jpg" />
+    <meta property="og:image:alt" content="Logo Perfect Finish" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Perfect Finish Leiria | Tira Mossas, Películas e Car Detail" />
+    <meta
+      name="twitter:description"
+      content="Serviços automóvel em Leiria: tira mossas, películas, car detail e lavagem detalhada."
+    />
+    <meta name="twitter:image" content="assets/logo.jpg" />
     <link rel="icon" href="assets/logo.jpg" type="image/jpeg" />
-    <link rel="preload" href="assets/hero-detail.jpg" as="image" />
+    <link rel="preload" href="assets/hero-detail.webp" as="image" type="image/webp" fetchpriority="high" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["AutoRepair", "AutoBodyShop", "LocalBusiness"],
+        "name": "Perfect Finish",
+        "alternateName": "Perfect Finish - Tira Mossas, Películas, Car Detail e Lavagem",
+        "description": "Serviço automóvel em Leiria especializado em tira mossas, películas automóvel, car detail, lavagem detalhada e bate-chapas.",
+        "image": "assets/logo.jpg",
+        "logo": "assets/logo.jpg",
+        "telephone": "+351968828510",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua do Tomar 95, Cardosos 113",
+          "postalCode": "2420-125",
+          "addressLocality": "Leiria",
+          "addressCountry": "PT"
+        },
+        "areaServed": [
+          "Leiria",
+          "Cardosos"
+        ],
+        "sameAs": [
+          "https://www.instagram.com/perfectfinish.pt/",
+          "https://www.facebook.com/p/Perfect-Finish-100092713274954/"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "84",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tira mossas"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Películas automóvel"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Car detail"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lavagem detalhada"
+            }
+          }
+        ]
+      }
+    </script>
     <script>
       document.documentElement.classList.add("js-enabled");
     </script>
@@ -25,7 +104,7 @@
   <body>
     <header class="site-header" data-header>
       <a class="brand" href="#inicio" aria-label="Perfect Finish">
-        <img class="brand-logo" src="assets/logo.jpg" alt="" aria-hidden="true" />
+        <img class="brand-logo" src="assets/logo.jpg" width="150" height="150" alt="" aria-hidden="true" decoding="async" />
         <span class="brand-name">Perfect Finish</span>
       </a>
 
@@ -42,8 +121,12 @@
       <section class="hero" aria-label="Perfect Finish Leiria">
         <img
           class="hero-bg"
-          src="assets/hero-detail.jpg"
+          src="assets/hero-detail.webp"
+          width="1920"
+          height="2400"
           alt="Polimento profissional numa viatura durante serviço de detalhe automóvel"
+          decoding="async"
+          fetchpriority="high"
           data-hero-image
         />
         <div class="hero-content">
@@ -125,7 +208,14 @@
 
       <section class="proof">
         <div class="proof-media reveal">
-          <img src="assets/polish-reflection.jpg" alt="Polimento de pintura com reflexo de oficina" />
+          <img
+            src="assets/polish-reflection.webp"
+            width="1800"
+            height="1200"
+            alt="Polimento de pintura com reflexo de oficina"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div class="proof-copy reveal">
           <p class="eyebrow">Porque escolher</p>
@@ -158,7 +248,14 @@
             </p>
           </div>
           <figure class="brand-photo brand-logo-panel reveal">
-            <img src="assets/logo.jpg" alt="Logo Perfect Finish" />
+            <img
+              src="assets/logo.jpg"
+              width="150"
+              height="150"
+              alt="Logo Perfect Finish"
+              loading="lazy"
+              decoding="async"
+            />
           </figure>
         </div>
       </section>
